@@ -18,3 +18,6 @@ protobuf = "1.4.3"
 ekiden-tools = { path = "./ekiden/tools" }
 ekiden-core-edl = { path = "./ekiden/core/edl" }
 
+[[bin]]
+name = "client"
+path = "bin/client"

@@ -46,12 +46,14 @@ running the `cargo make` command.
 
 The built contract will be stored under `target/enclave/token.signed.so`.
 
-## Building the example client
+## Building and running the example client
 
-The example client is located under `examples/client` and it may be built using:
+The example client may be run using `cargo run client <args>`.
+To make modifications,
 ```bash
-$ cd examples/client
+$ cd bin/client
 $ cargo build
+$ cargo run
 ```
 
 ## Running the contract

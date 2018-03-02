@@ -1,0 +1,20 @@
+[package]
+name = "token-client"
+version = "0.1.0"
+authors = [
+    "Jernej Kos <jernej@kos.mx>"
+]
+
+[features]
+default = []
+benchmark = ["client-utils/benchmark"]
+
+[dependencies]
+client-utils = { path = "../../ekiden/clients/utils" }
+ekiden-core-common = { path = "../../ekiden/core/common" }
+ekiden-rpc-client = { path = "../../ekiden/rpc/client" }
+token-api = { path = "../../api" }
+clap = "2.29.1"
+futures = "0.1"
+rand = "0.4"
+tokio-core = "0.1"
