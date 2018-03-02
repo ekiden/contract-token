@@ -1,0 +1,3 @@
+[submodule "ekiden"]
+	path = ekiden
+	url = git@github.com:sunblaze-ucb/ekiden.git

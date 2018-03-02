@@ -1,0 +1,20 @@
+[package]
+name = "token"
+version = "0.1.0"
+authors = ["Raymond Cheng <me@raymondcheng.net>"]
+build = "build.rs"
+
+[lib]
+name = "token"
+crate-type = ["staticlib"]
+
+[dependencies]
+token-api = { path = "./api" }
+ekiden-core-common = { path = "./ekiden/core/common" }
+ekiden-core-trusted = { path = "./ekiden/core/trusted" }
+protobuf = "1.4.3"
+
+[build-dependencies]
+ekiden-tools = { path = "./ekiden/tools" }
+ekiden-core-edl = { path = "./ekiden/core/edl" }
+

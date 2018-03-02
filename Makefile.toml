@@ -1,0 +1,4 @@
+extend = "./ekiden/contracts/Makefile.toml"
+
+[env]
+EKIDEN_ROOT = { script = ["echo $(git rev-parse --show-toplevel)/ekiden"] }
