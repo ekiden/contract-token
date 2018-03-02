@@ -1,0 +1,17 @@
+[package]
+name = "benchmark-token-get-balance"
+version = "0.1.0"
+authors = [
+    "w <none>"
+]
+
+[dependencies]
+client-utils = { path = "../../ekiden/clients/utils", features = ["benchmark"] }
+ekiden-core-common = { path = "../../ekiden/core/common" }
+ekiden-rpc-client = { path = "../../ekiden/rpc/client" }
+token-api = { path = "../../api" }
+clap = "2.29.1"
+lazy_static = "1.0"
+rand = "0.4"
+futures = "0.1"
+tokio-core = "0.1"
